@@ -1,8 +1,10 @@
+import { Container } from "react-bootstrap";
+
 const Home = () => {
   return (
-    <div className="App">
-      <h1>Hello Word Home</h1>
-    </div>
+    <Container>
+      <h1 className="d-flex justify-content-center">Hello Word Home</h1>
+    </Container>
   );
 };
 
