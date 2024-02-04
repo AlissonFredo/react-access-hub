@@ -36,3 +36,6 @@ O react-bootstrap integra componentes estilizados do Bootstrap ao React, permiti
 Obs: Além do comando de instalação, é necessário adicionar a importação do CSS do React no arquivo `./index.js` do projeto.
 
 `import 'bootstrap/dist/css/bootstrap.min.css'`
+
+## local onde a img foi derada
+https://app.simplified.com/graphic-design/tools/text-to-image/results
