@@ -1,8 +1,19 @@
 import { Col, Container, Row } from "react-bootstrap";
 import Banner from "../../assets/images/out-0.png";
 import { Button } from "../../components/Button";
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
+  const navigate = useNavigate();
+
+  const handleClickLogin = () => {
+    navigate("/login");
+  };
+
+  const handleClickRegister = () => {
+    navigate("/register");
+  };
+
   return (
     <Container fluid className="vh-100 d-flex align-items-center bg-light">
       <Row>
@@ -28,6 +39,7 @@ const Home = () => {
                 isCuston
                 size="lg"
                 className="w-100"
+                onClick={handleClickLogin}
               />
             </Col>
             <Col sm={12} md={6}>
@@ -37,6 +49,7 @@ const Home = () => {
                 isCuston
                 size="lg"
                 className="w-100"
+                onClick={handleClickRegister}
               />
             </Col>
           </Row>

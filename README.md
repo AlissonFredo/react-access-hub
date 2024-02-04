@@ -37,5 +37,12 @@ Obs: Além do comando de instalação, é necessário adicionar a importação d
 
 `import 'bootstrap/dist/css/bootstrap.min.css'`
 
+### `npm install react-hook-form`
+
+### `npm install yup`
+
+### `npm install @hookform/resolvers yup`
+
 ## local onde a img foi derada
+
 https://app.simplified.com/graphic-design/tools/text-to-image/results
