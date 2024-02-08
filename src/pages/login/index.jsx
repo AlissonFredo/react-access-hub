@@ -92,8 +92,10 @@ const Login = () => {
               />
             </Col>
             <Col sm={12} className="d-flex justify-content-around mt-3">
-              <Link to="#">Esqueceu a senha?</Link>
-              <Link to="/register">Criar nova conta</Link>
+              <span>
+                Você não tem uma conta?{" "}
+                <Link to="/register">Criar sua conta</Link>
+              </span>
             </Col>
           </Row>
         </Col>
