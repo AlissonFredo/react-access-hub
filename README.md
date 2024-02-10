@@ -43,6 +43,8 @@ Obs: Além do comando de instalação, é necessário adicionar a importação d
 
 ### `npm install @hookform/resolvers yup`
 
+### `npm install react-icons --save`
+
 ## local onde a img foi derada
 
 https://app.simplified.com/graphic-design/tools/text-to-image/results

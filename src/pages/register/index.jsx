@@ -44,6 +44,8 @@ const Register = () => {
 
   const onSubmit = (data) => {
     console.log(data);
+
+    navigate("/login");
   };
 
   return (
