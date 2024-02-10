@@ -6,6 +6,7 @@ import { Input } from "../../components/Input";
 import { Button } from "../../components/Button";
 import * as yup from "yup";
 import Banner from "../../assets/images/out-0.png";
+import { api } from "../../services/api";
 
 const schema = yup
   .object({
@@ -42,10 +43,20 @@ const Register = () => {
     navigate("/");
   };
 
-  const onSubmit = (data) => {
-    console.log(data);
+  const onSubmit = async (formData) => {
+    try {
+      delete formData.confirm_password;
 
-    navigate("/login");
+      const { data } = await api.post("/users", formData);
+
+      if (data) {
+        alert("Cadastro foi realizado com sucesso!");
+
+        navigate("/login");
+      }
+    } catch (error) {
+      alert("Hover algum erro. Tente novamente!");
+    }
   };
 
   return (
