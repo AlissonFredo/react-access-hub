@@ -1,10 +1,16 @@
 {
-    "users": [
-        {
-            "id": "8e83",
-            "name": "admin",
-            "email": "admin@gmail.com",
-            "password": "12345678"
-        }
-    ]
+  "users": [
+    {
+      "id": "8e83",
+      "name": "admin",
+      "email": "admin@gmail.com",
+      "password": "12345678"
+    },
+    {
+      "id": "37bd",
+      "name": "douglas alisson da silva fredo",
+      "email": "douglasalissonsf@gmail.com",
+      "password": "12345678"
+    }
+  ]
 }

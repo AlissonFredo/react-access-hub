@@ -39,16 +39,24 @@ Obs: Além do comando de instalação, é necessário adicionar a importação d
 
 ### `npm install react-hook-form`
 
+O react-hook-form é uma biblioteca que facilita a criação de formulários no React, oferecendo uma API simples e intuitiva para gerenciar o estado dos campos do formulário.
+
 ### `npm install yup`
+
+Yup é uma biblioteca de validação de esquemas JavaScript que permite definir esquemas de validação para objetos JavaScript e validar esses objetos em conformidade com esses esquemas.
 
 ### `npm install @hookform/resolvers yup`
 
+Este é um pacote de resolução de esquemas para o react-hook-form, que permite integrar validação baseada em esquemas com bibliotecas como Yup.
+
 ### `npm install react-icons --save`
+
+O react-icons é uma biblioteca que fornece um conjunto abrangente de ícones para uso em aplicativos React, permitindo adicionar ícones facilmente em diferentes partes da interface do usuário.
 
 ### `npm install json-server`
 
+O json-server é uma biblioteca que permite simular uma API RESTful a partir de um arquivo JSON, facilitando o desenvolvimento e teste de aplicações front-end sem a necessidade de um backend real.
+
 ### `npm install axios`
 
-## local onde a img foi derada
-
-https://app.simplified.com/graphic-design/tools/text-to-image/results
+Axios é um cliente HTTP baseado em promessas para o navegador e node.js, que facilita a realização de requisições HTTP para interagir com APIs externas ou o servidor backend.
