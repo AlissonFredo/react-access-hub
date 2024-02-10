@@ -1,8 +1,17 @@
 import { Dropdown } from "react-bootstrap";
 import { AiOutlineMenu } from "react-icons/ai";
 import Banner from "../../assets/images/out-0.png";
+import { useNavigate } from "react-router-dom";
 
 const Header = () => {
+  const navigate = useNavigate();
+
+  const handleLogout = () => {
+    localStorage.removeItem("user");
+
+    navigate("/");
+  };
+
   return (
     <header className="p-3 mb-3 border-bottom bg-body-tertiary">
       <div className="container">
@@ -29,9 +38,7 @@ const Header = () => {
             </Dropdown.Toggle>
 
             <Dropdown.Menu>
-              <Dropdown.Item onClick={() => console.log("sair")}>
-                Sair
-              </Dropdown.Item>
+              <Dropdown.Item onClick={handleLogout}>Sair</Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
         </div>

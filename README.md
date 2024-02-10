@@ -45,6 +45,10 @@ Obs: Além do comando de instalação, é necessário adicionar a importação d
 
 ### `npm install react-icons --save`
 
+### `npm install json-server`
+
+### `npm install axios`
+
 ## local onde a img foi derada
 
 https://app.simplified.com/graphic-design/tools/text-to-image/results
